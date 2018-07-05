@@ -1,0 +1,64 @@
+.btn-cus-dark {
+    background-color: #03395c;
+    color: #fff;
+}
+.btn-cus-dark:hover {
+    transition: 0.3s ease;
+    background-color: #011e31;
+}
+#white {
+    color: #fff;
+    text-decoration: none; 
+}
+.bg-custom {
+    background-color: #03395c;
+}
+.active {
+    border-bottom: 2px solid #fff 
+}
+.underline:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px #afb0b1;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.underline:hover:after { transform: scaleX(1); }
+.underline.fromRight:after{ transform-origin:100% 50%; }
+.underline.fromLeft:after{  transform-origin:  0% 50%; }
+.nav-item {
+    margin: 0 5px 0 5px;
+}
+.white {
+    color: #fff
+}
+.push {
+    padding-top: 175px;
+}
+.icons {
+    font-size: 72px;
+}
+.fa-html5 {
+    color: #ee5f00;
+}
+.fa-css3-alt {
+    color: #3c85f3;
+}
+.fa-js {
+    color: #dbc712
+}
+.fa-python {
+    color: #ffd43b
+}
+.pad-20 {
+    padding-top: 20px;
+}
+.no-deco {
+    text-decoration: none;
+}
+.zoom-out {
+    transition: transform 0.5s;
+}
+.zoom-out:hover {
+    transform: scale(.75);
+}
