@@ -107,3 +107,9 @@ footer {
     transition: 0.2s ease;
 
 }
+.small-as {
+    color: #ff0000
+}
+.pad-bt-50 {
+    padding-bottom: 50px;
+}
