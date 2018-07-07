@@ -1,6 +1,4 @@
 <?php
-    // My modifications to mailer script from:
-    // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
 
     // Only process POST reqeusts.
@@ -20,7 +18,6 @@
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
         $recipient = "kriscloutier@nerdydevs.com";
 
         // Set the email subject.
